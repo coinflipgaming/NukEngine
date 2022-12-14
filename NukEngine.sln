@@ -5,6 +5,11 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NukEngine", "NukEngine.vcxproj", "{E7C7FAB3-5821-4855-8BD2-2072B8CF2DBD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NukExampleApplication", "samples\NukExampleApplication\NukExampleApplication.vcxproj", "{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7C7FAB3-5821-4855-8BD2-2072B8CF2DBD} = {E7C7FAB3-5821-4855-8BD2-2072B8CF2DBD}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +26,14 @@ Global
 		{E7C7FAB3-5821-4855-8BD2-2072B8CF2DBD}.Release|x64.Build.0 = Release|x64
 		{E7C7FAB3-5821-4855-8BD2-2072B8CF2DBD}.Release|x86.ActiveCfg = Release|Win32
 		{E7C7FAB3-5821-4855-8BD2-2072B8CF2DBD}.Release|x86.Build.0 = Release|Win32
+		{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}.Debug|x64.ActiveCfg = Release|x64
+		{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}.Debug|x64.Build.0 = Release|x64
+		{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}.Debug|x86.Build.0 = Debug|Win32
+		{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}.Release|x64.ActiveCfg = Debug|x64
+		{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}.Release|x64.Build.0 = Debug|x64
+		{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}.Release|x86.ActiveCfg = Release|Win32
+		{F9462162-CB2C-4F71-8BE0-83CE065C2ABC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

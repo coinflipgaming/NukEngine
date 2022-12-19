@@ -74,7 +74,7 @@
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)intermediate\$(ProjectName)\(Platform)\$(Configuration)\</IntDir>
     <IncludePath>../../include/;$(IncludePath)</IncludePath>
-    <LibraryPath>A:\repos\NukEngine\bin\x64\Debug\;$(LibraryPath)</LibraryPath>
+    <LibraryPath>A:\repos\coinflipgaming\NukEngine\bin\x64\Debug\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
